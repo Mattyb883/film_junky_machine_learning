@@ -4,6 +4,17 @@ This project builds a machine learning classifier to automatically detect **nega
 
 ---
 
+## Table of Contents
+
+- [Dataset](#dataset)
+- [Objective](#objective)
+- [Models Trained](#models-trained)
+- [Evaluation](#evaluation)
+- [Final Verdict](#final-verdict)
+- [Project Structure](#project-structure)
+
+---
+
 ## Dataset
 
 - **Source**: [Maas et al., ACL 2011](https://ai.stanford.edu/~amaas/data/sentiment/)
