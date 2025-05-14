@@ -1,10 +1,10 @@
-# 🎬 IMDB Sentiment Classifier – Film Junky Union
+# IMDB Sentiment Classifier – Film Junky Union
 
 This project builds a machine learning classifier to automatically detect **negative movie reviews** from a dataset of IMDB reviews. Created as part of the Film Junky Union initiative, this tool helps filter and analyze large volumes of user-submitted reviews to improve community moderation and content tagging.
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **Source**: [Maas et al., ACL 2011](https://ai.stanford.edu/~amaas/data/sentiment/)
 - **File**: `imdb_reviews.tsv`
@@ -16,7 +16,7 @@ This project builds a machine learning classifier to automatically detect **nega
 
 ---
 
-## 🧠 Objective
+## Objective
 
 Train and evaluate models to:
 - Classify reviews as **positive** or **negative**
@@ -25,7 +25,7 @@ Train and evaluate models to:
 
 ---
 
-## 🧪 Models Trained
+## Models Trained
 
 | Model               | F1 Score | Accuracy |
 |--------------------|----------|----------|
@@ -33,11 +33,11 @@ Train and evaluate models to:
 | XGBoost            | 0.860    | 85.8%    |
 | LinearSVC          | 0.868    | 86.9%    |
 
-✅ All models exceeded the F1 target.
+All models exceeded the F1 target.
 
 ---
 
-## 🔍 Evaluation
+## Evaluation
 
 - Custom user-written reviews tested against all models
 - Confusion matrices used to visualize performance
@@ -45,7 +45,7 @@ Train and evaluate models to:
 
 ---
 
-## ✅ Final Verdict
+## Final Verdict
 
 **Logistic Regression** is the recommended model for deployment:
 - Fast, simple, and effective
@@ -54,7 +54,7 @@ Train and evaluate models to:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
